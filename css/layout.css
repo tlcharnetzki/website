@@ -220,15 +220,10 @@ body {
   }
 }
 
-
-
-
-
 .crop-container {
   width: 200px;  /* desired width */
   height: 200px; /* desired height */
   overflow: hidden; /* hide overflow to create the crop effect */
-  border-radius: 50%; /* optional, to create a circular crop */
   position: relative;
 }
 
