@@ -245,4 +245,6 @@ body {
 .max-width {
   max-width: 700px;
 }
-
+.max-height {
+  margin-bottom: 3rem;
+}
