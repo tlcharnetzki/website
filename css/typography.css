@@ -30,12 +30,16 @@ body {
 .body-text {
   font-size: 16px;
   font-weight: 500;
-  min-height: 6rem;
+}
+
+.body-text-no-min-height {
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .project-card-text {
   overflow: hidden;
-  /* text-overflow: ellipsis;     / */
+  text-overflow: ellipsis;     /
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
